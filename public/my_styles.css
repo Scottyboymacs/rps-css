@@ -1,0 +1,51 @@
+<style>
+  * {
+    border: thin red dashed
+  }
+  body {
+    font-family: 'Rubik Microbe', cursive;
+
+  }
+  .button { 
+    color: teal; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    border: 1px teal solid; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .card {
+    border-radius: 5px;
+    border: thin solid red;
+    padding: 10px 20px;
+    width: 40%
+  }
+
+  .player-card {
+    border-radius: 5px;
+    border: thin solid green;
+    padding: 10px 20px;
+    width: 40%
+  }
+  .result-card {
+    border-radius: 5px;
+    border: 3px dashed blue;
+    padding: 10px 20px;
+    width: 80%;
+    justify-content: center;
+    background-color: pink;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .row-center{
+    display: flex;
+    justify-content: center;
+
+  }
+</style>
